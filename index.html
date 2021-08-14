@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Converter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="contanier">
+        <div class="box">
+            <h1 id="title">Weight Convert </h1>
+        
+            <section>
+                <div id="input">
+                  <select name="weightSelect" id="choose_weight">
+                    <option>Choose weight type</option>
+                    <option value="1">Kilograms</option>
+                    <option value="2">Pounds</option>
+                    <option value="3">Grams</option>
+                    <option value="4">Ounces</option>
+                  </select><br>
+                  <input type="number" id="weight_value" value="0">
+                </div>
+                <div id="result">
+                  <div class="result_box kilos" id="lb_result">
+                    <h3 id="types">Pounds</h3>
+                    <h4 id="Change_Pounds"></h4>
+                  </div>
+                  <div class="result_box pounds" id="kg_result">
+                    <h3 id="types">Kilos</h3>
+                    <h4 id="Change_Kilos"></h4>
+                  </div>
+                  <div class="result_box grams" id="gm_result">
+                    <h3 id="types">Grams</h3>
+                    <h4 id="Change_Grams"></h4>
+                  </div>
+                  <div class="result_box ounces" id="oz_result">
+                    <h3 id="types">Ounces</h3>
+                    <h4 id="Change_Ounces"></h4>
+                  </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
